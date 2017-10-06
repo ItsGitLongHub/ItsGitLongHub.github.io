@@ -1,0 +1,70 @@
+@font-face{
+    font-family:Bleh;
+    src: url(fonts/Bleh.ttf);
+}
+@font-face{    
+    font-family:Writing;
+    src: url(fonts/Handwriting.ttf);
+}
+@font-face{
+    font-family:Bold;
+    src: url(fonts/Bold.ttf)
+}
+body{
+    background-image: url(images/city.jpg);
+    background-repeat:no-repeat;
+    background-color: #95dbf9;
+    background-position: left top;
+    background-attachment: fixed;
+    color: white;
+    background-size: 100% 100%
+}
+h1{
+    font-family: "Bold", "Writing";
+    font-size: 100%
+}
+p2{
+    font-family: "Writing", "Bleh";
+    font-size: 250%;
+}
+p3{
+    font-family: "Bold";
+    font-size: 75%
+}
+#nav {
+    font-family: "Bold";
+}
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+    background-color: #94aace;
+}
+#nav li {
+    float: left;
+}
+#nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav li a:hover {
+    background-color: #415370;
+}
+#nav li a:hover:not(.active) {
+    background-color: #51a8ad;
+}
+
+#nav .active {
+    background-color: #55a8ad;
+}
+#nav li {
+    border-right: 1px solid #bbb;
+}
+
+#nav li:last-child {
+    border-right: none;
+}
